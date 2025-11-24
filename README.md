@@ -5,7 +5,7 @@
 
 ## 📥 Download
 Download the complete dataset from:  
-> [Download Dataset](https://iie.fing.edu.uy/proyectos/berrutti-ocr/berruti-dataset/)
+> [Download Dataset](https://iie.fing.edu.uy/proyectos/berrutti-ocr/ocr-v2/)
 
 
 ## 📝 Brief Description
@@ -37,7 +37,8 @@ images/                        # Original images
   ├── medium_<id>.png          # Medium quality
   └── low_<id>.png             # Low quality
 
-bounding_boxes_lines_via2.json  # VIA2-format JSON annotations
+bounding_boxes_lines_via2/   
+  ├── bounding_boxes_lines_via2.json  # VIA2-format JSON annotations
 
 full_text_transcriptions/       # Full transcriptions
   ├── <document_name>.txt       # Complete text (OCR + human refinement)
@@ -120,4 +121,5 @@ The full license text is available in both English and Spanish:
 
 ## 🕒 Version History
 
+- **v2.0** (24/11/2025): Improved GT and bounding boxes.
 - **v1.0** (06/05/2025): First release of the dataset.
