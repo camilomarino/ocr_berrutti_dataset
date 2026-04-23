@@ -1,11 +1,11 @@
 # OCR Berrutti Dataset
 ![example](examples/logo.png)
 
-
+Current dataset release: **v3.0** (23/04/2026), with improved line-level bounding boxes.
 
 ## 📥 Download
 Download the complete dataset from:  
-> [Download Dataset](https://iie.fing.edu.uy/proyectos/berrutti-ocr/ocr-v2/)
+> [Download Dataset](https://iie.fing.edu.uy/proyectos/berrutti-ocr/ocr-berrutti-dataset-v3/)
 
 
 ## 📝 Brief Description
@@ -43,6 +43,12 @@ bounding_boxes_lines_via2/
 full_text_transcriptions/       # Full transcriptions
   ├── <document_name>.txt       # Complete text (OCR + human refinement)
   └── ...                       # Additional files
+
+licenses/
+  ├── license_en.pdf
+  └── license_es.pdf
+
+VERSION_AND_COLLABORATORS.txt   # Brief dataset metadata
 ```
 
 ---
@@ -100,12 +106,12 @@ This dataset is the result of collaboration between:
 - [**Centre Borelli ENS Paris-Saclay**](https://centreborelli.ens-paris-saclay.fr/en)  
 
 The dataset authors are listed in alphabetical order by surname:  
-- Diego Belzarena (Centre Borelli ENS Paris-Saclay / UdelaR)  
+- [Diego Belzarena](https://scholar.google.com/citations?user=mHV2IZkAAAAJ&hl=en&oi=ao) (Centre Borelli ENS Paris-Saclay / UdelaR)  
 - Laura Carlevaro  
 - [Alicia Fernández](https://iie.fing.edu.uy/~alicia/) (UdelaR)  
 - Marina Gardella (Centre Borelli ENS Paris-Saclay)  
 - [Camilo Mariño](https://scholar.google.com/citations?user=EXk6IrIAAAAJ&hl=en) (Centre Borelli ENS Paris-Saclay / UdelaR)  
-- Seginus Mowlavi (Centre Borelli ENS Paris-Saclay)  
+- [Seginus Mowlavi](https://scholar.google.com/citations?user=ZYsJIbMAAAAJ&hl=en) (Centre Borelli ENS Paris-Saclay)  
 - Ignacio Ramirez (UdelaR)
 - [Gregory Randall](https://scholar.google.com.uy/citations?user=GbQ02t0AAAAJ&hl=es) (UdelaR)  
 
@@ -121,5 +127,6 @@ The full license text is available in both English and Spanish:
 
 ## 🕒 Version History
 
+- **v3.0** (23/04/2026): Improved line-level bounding boxes.
 - **v2.0** (24/11/2025): Improved GT and bounding boxes.
 - **v1.0** (06/05/2025): First release of the dataset.

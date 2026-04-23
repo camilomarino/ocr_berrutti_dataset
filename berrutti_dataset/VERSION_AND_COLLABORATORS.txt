@@ -1,0 +1,14 @@
+OCR Berrutti Dataset
+Version: v3.0
+Release date: 23/04/2026
+Summary: This version improves the line-level bounding boxes.
+
+Collaborators:
+- Diego Belzarena
+- Laura Carlevaro
+- Alicia Fernández
+- Marina Gardella
+- Camilo Mariño
+- Seginus Mowlavi
+- Ignacio Ramirez
+- Gregory Randall
